@@ -1,11 +1,7 @@
 <template>
-  <IonApp>
-    <IonPage>
-      <ion-content class="ion-padding">
+
         <div v-if="loading">LOADING...</div>
-      </ion-content>
-    </IonPage>
-  </IonApp>
+
 </template>
 
 <script setup lang="ts">
